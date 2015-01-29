@@ -17,7 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/but_blinking"
-        android:onClick="stopLighting"
+        android:onClick="stopLightingOnClick"
         android:text="Stop"/>
 
 </RelativeLayout>

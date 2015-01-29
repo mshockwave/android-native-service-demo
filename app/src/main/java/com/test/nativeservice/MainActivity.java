@@ -48,7 +48,7 @@ public class MainActivity extends ActionBarActivity {
             e.printStackTrace();
         }
     }
-    public void stopLighting(View v){
+    public void stopLightingOnClick(View v){
         if(mMyLight == null) return;
         try {
             mMyLight.turnOff();
